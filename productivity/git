@@ -54,7 +54,9 @@ You can create a README.md (it's in markdown)
 Once the origin is setup you can push with
 	git push
 The README.md will be displayed as the description/documentation window in the repository's page on GitHub
-
+If you delete files in the local repository you have to commit the delete with:
+	git commit -a -m 'A file was deleted'
+	git push
 
 Clone
 If someone wants to get the repository you just click "Clone or download" button in GitHub
